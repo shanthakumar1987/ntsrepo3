@@ -21,6 +21,7 @@ resource "aws_instance"  "web_server" {
       "sudo apt-get install -y apache2"
     ]
 
+
     connection {
       #type        = "ssh"
       user        = "ubuntu"  # Replace with appropriate user for your AMI
